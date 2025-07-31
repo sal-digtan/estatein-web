@@ -1,0 +1,82 @@
+.herotitle {
+    font-size: clamp(30px, 3vw, 46px);
+}
+
+.herodesctext {
+    color: #999999;
+}
+
+.herolearnbtn {
+    background-color: #141414;
+    border: 1px solid #262626;
+    padding: 12px 24px;
+}
+
+.herobrowsebtn {
+    background-color: #703BF7;
+    padding: 12px 24px;
+    border: 0;
+}
+
+.statscardbg {
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+    height: 130px;
+}
+
+.featurescardbg {
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+    height: 160px;
+}
+
+.breakout-column {
+    margin-right: calc(50% - 50vw);
+    width: 50vw;
+    padding: 0;
+}
+
+@media(max-width:768px) {
+    .featurescardbg {
+        height: 180px;
+    }
+}
+
+@media(max-width:600px) {
+    .statscardbg {
+        height: auto;
+    }
+
+    .herolearnbtn,
+    .herobrowsebtn {
+        display: block;
+        width: 100%;
+    }
+
+    .statscardcon {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .statscardcon>*:last-child {
+        grid-column: 1 / -1;
+        /* span from the first grid line to the last */
+    }
+
+    .breakout-column {
+        margin-right: unset;
+        width: unset;
+        padding: 10px;
+    }
+
+    .featurescardbg {
+        height: 160px;
+    }
+}
+
+@media(max-width:375px) {
+    .featurescardbg {
+        height: 200px;
+    }
+}

@@ -1,0 +1,28 @@
+.topbarbg {
+    background: #1A1A1A url('../../../public/topbarbg.png') no-repeat center center;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.navbarbg {
+    background-color: #1A1A1A;
+    height: 77px;
+}
+
+.contactbtn {
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+    padding: 12px 24px;
+}
+
+.nav-link.active {
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+    padding: 12px 24px;
+}
+
+@media(max-width:768px) {
+    .navbarbg {
+        height: auto;
+    }
+}
