@@ -8,6 +8,8 @@ import pageStyles from '@/app/page.module.css'
 import Navbar from '@/app/components/navbar'
 import Hero from '@/app/components/hero'
 import Featured from '@/app/components/featured'
+import Clients from '@/app/components/clients'
+import Faqs from '@/app/components/faqs'
 
 const page = () => {
   return (
@@ -18,6 +20,8 @@ const page = () => {
             <Navbar />
             <Hero />
             <Featured />
+            <Clients />
+            <Faqs />
           </Col>
         </Row>
       </Container>

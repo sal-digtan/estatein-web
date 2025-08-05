@@ -8,18 +8,12 @@
     color: #999999
 }
 
-.sliderdetailsbtn {
-    padding: 12px 20px;
-    background-color: #703BF7;
-    border: 0;
-
-}
-
 .slidercard {
-    height: 500px;
     background-color: #141414;
     border: 1px solid #262626;
     border-radius: 12px;
+    padding: 20px;
+    height: 315px;
 }
 
 .slider-container {
@@ -37,14 +31,6 @@
 
 .sliderarrowsbtn:first-child {
     margin-right: 10px;
-}
-
-.amenitiesbg {
-    padding: 6px;
-    background-color: #1A1A1A;
-    border: 1px solid #262626;
-    border-radius: 28px;
-    font-size: 14px;
 }
 
 @media(max-width:600px) {

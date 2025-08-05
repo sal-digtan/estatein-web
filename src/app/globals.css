@@ -63,3 +63,19 @@ a {
 #navbar .nav-link {
   padding: 12px 20px !important;
 }
+
+#featured-slider .slick-list {
+  margin: 0 -5px;
+}
+
+#featured-slider .slick-slide>div {
+  padding: 0 5px;
+}
+
+#clients-slider .slick-list {
+  margin: 0 -5px;
+}
+
+#clients-slider .slick-slide>div {
+  padding: 0 5px;
+}
