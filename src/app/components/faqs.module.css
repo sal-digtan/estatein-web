@@ -40,6 +40,16 @@
     margin-right: 10px;
 }
 
+@media(max-width:768px) {
+    .slidercard {
+        height: 300px;
+    }
+
+    .sliderarrowsbtn {
+        margin: 10px;
+    }
+}
+
 @media(max-width:600px) {
     .sliderarrowsbtn {
         margin: 10px;

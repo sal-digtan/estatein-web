@@ -1,0 +1,16 @@
+.explorebtn {
+    padding: 14px 20px;
+    border-radius: 8px;
+    background-color: #703BF7;
+}
+
+.journeybg {
+    background: url('../../../public/journeybg1.png') no-repeat top left, url('../../../public/journeybg2.png') no-repeat top right;
+    background-size: contain;
+}
+
+@media(max-width:600px) {
+    .explorebtn {
+        width: 100%;
+    }
+}

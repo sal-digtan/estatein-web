@@ -10,6 +10,8 @@ import Hero from '@/app/components/hero'
 import Featured from '@/app/components/featured'
 import Clients from '@/app/components/clients'
 import Faqs from '@/app/components/faqs'
+import Journey from '@/app/components/journey'
+import Footer from '@/app/components/footer'
 
 const page = () => {
   return (
@@ -22,6 +24,8 @@ const page = () => {
             <Featured />
             <Clients />
             <Faqs />
+            <Journey />
+            <Footer />
           </Col>
         </Row>
       </Container>

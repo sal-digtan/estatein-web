@@ -1,0 +1,70 @@
+.footercontainer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 50px;
+}
+
+.footercontainer>div:first-child {
+    grid-column-end: span 1;
+    width: 300px;
+}
+
+.formbg {
+    background-color: #141414;
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.formcontrol:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.formcontrol {
+    background: url("../../../public/email-icon.png") no-repeat left;
+    background-size: 20px;
+    padding-left: 30px;
+}
+
+@media(max-width:768px) {
+    .footercontainer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footercontainer>div:first-child {
+        grid-column-end: span 3;
+        width: 100%;
+    }
+}
+
+.copyrightcon {
+    background-color: #1A1A1A;
+    padding: 20px;
+}
+
+.socialiconbg {
+    background-color: #141414;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.footerlinkstitle {
+    color: #999999;
+}
+
+@media(max-width: 600px) {
+    .footercontainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footercontainer>div:first-child {
+        grid-column-end: span 2;
+        width: 100%;
+    }
+}
