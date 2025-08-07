@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -6,8 +6,12 @@ import navbarStyles from '@/app/components/navbar.module.css'
 import Image from 'next/image'
 import navbarLogo from '../../../public/estatein-logo.png'
 import Button from 'react-bootstrap/Button'
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 const navbar = () => {
+
+    const pathname = usePathname()
 
     const navlinks = [
         {
@@ -32,10 +36,6 @@ const navbar = () => {
         },
     ]
 
-    const [activeNavlink, setActiveNavlink] = useState(0)
-
-    console.log(activeNavlink);
-
     return (
         <div className='fixed-top'>
             <div className={`${navbarStyles.topbarbg} text-center`}>
@@ -43,14 +43,14 @@ const navbar = () => {
             </div>
             <Navbar expand="lg" className={navbarStyles.navbarbg} id='navbar'>
                 <Container>
-                    <Navbar.Brand href="/">
+                    <Link href="/">
                         <Image src={navbarLogo} width='auto' height='auto' className='img-fluid' alt='estatein-logo' />
-                    </Navbar.Brand>
+                    </Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto ms-auto">
                             {navlinks.map((item, index) => <div key={index}>
-                                <Nav.Link href={item.path} onClick={()=> setActiveNavlink(index)} className={`${activeNavlink === index ? 'active' : ''} mx-1 text-capitalize`}>{item.title}</Nav.Link>
+                                <Link href={item.path} className={`${pathname === item.path ? navbarStyles['nav-link-active'] : navbarStyles['nav-link']} mx-1 text-capitalize text-white`}>{item.title}</Link>
                             </div>)}
                         </Nav>
                         <Nav>

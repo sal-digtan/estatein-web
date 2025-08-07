@@ -1,0 +1,17 @@
+.values_title {
+    font-size: clamp(30px, 3vw, 38px);
+}
+
+.values_desc {
+    color: #999999;
+}
+
+.values_row {
+    padding: 50px;
+}
+
+@media(max-width:600px) {
+    .values_row {
+        padding: 10px 0;
+    }
+}

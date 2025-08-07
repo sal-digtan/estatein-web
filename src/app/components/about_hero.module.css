@@ -1,0 +1,30 @@
+.abouthero_title {
+    font-size: clamp(30px, 3vw, 38px);
+}
+
+.abouthero_desc {
+    color: #999999;
+}
+
+.statscardbg {
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+    height: 130px;
+}
+
+@media(max-width:600px) {
+    .statscardbg {
+        height: auto;
+    }
+
+    .statscardcon {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .statscardcon>*:last-child {
+        grid-column: 1 / -1;
+        /* span from the first grid line to the last */
+    }
+}

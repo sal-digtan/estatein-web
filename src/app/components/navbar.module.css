@@ -15,10 +15,21 @@
     padding: 12px 24px;
 }
 
-.nav-link.active {
+.nav-link-active {
     background-color: #1A1A1A;
     border: 1px solid #262626;
-    padding: 12px 24px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: '#fff' !important;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-link {
+    padding: 12px 20px;
+    color: '#fff' !important;
+    text-decoration: none;
+    display: block;
 }
 
 @media(max-width:768px) {
