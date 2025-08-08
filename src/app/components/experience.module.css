@@ -1,0 +1,28 @@
+.experience_title {
+    font-size: clamp(30px, 3vw, 38px);
+}
+
+.experience_desc {
+    color: #999999;
+}
+
+.experience_card {
+    height: 240px;
+    background-color: #141414;
+    border: 1px solid #262626;
+    padding: 20px;
+    border-radius: 0 8px 8px 8px;
+    box-shadow: inset 0px 0px 4px #703BF7;
+}
+
+@media(max-width:768px) {
+    .experience_card {
+        padding: 10px;
+    }
+}
+
+@media(max-width:600px) {
+    .experience_card {
+        height: 100%;
+    }
+}

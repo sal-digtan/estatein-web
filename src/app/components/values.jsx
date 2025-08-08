@@ -61,7 +61,7 @@ const values = () => {
         <section className='pb-5'>
             <Container>
                 <Row className='align-items-center'>
-                    <Col lg={5}>
+                    <Col lg={5} md={12}>
                         <div>
                             <svg width="55" height="24" viewBox="0 0 55 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0_144_10191)">
@@ -103,16 +103,16 @@ const values = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col lg={7}>
+                    <Col lg={7} md={12}>
                         <Row className={valuesStyles.values_row}>
-                            {valuesData.map((item, index) => <Col key={index} lg={6} className='mb-3 border-bottom border-tertiary'>
+                            {valuesData.map((item, index) => <Col key={index} lg={6} md={6} className={`${valuesStyles.values_col} mb-3 py-3`}>
                                 <div>
                                     <div className='d-flex align-items-center mb-3'>
                                         <Image src={`data:image/svg+xml;utf8,${encodeURIComponent(item.icon)}`} width={60} height={60} alt={item.title} />
                                         <h5 className='ms-3'>{item.title}</h5>
                                     </div>
                                     <div>
-                                        <p>{item.desc}</p>
+                                        <p className={valuesStyles.values_desc}>{item.desc}</p>
                                     </div>
                                 </div>
                             </Col>

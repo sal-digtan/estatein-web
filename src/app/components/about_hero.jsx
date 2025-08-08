@@ -31,7 +31,7 @@ const about_hero = () => {
         <section className='py-5'>
             <Container>
                 <Row className='align-items-end'>
-                    <Col lg={6} md={6} className='pt-5 order-lg-1 order-md-1 order-2'>
+                    <Col lg={6} md={12} className='pt-5 order-lg-1 order-md-2 order-2'>
                         <div className='mb-5'>
                             <svg width="55" height="24" viewBox="0 0 55 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0_144_10118)">
@@ -85,7 +85,7 @@ const about_hero = () => {
                             </Col>)}
                         </Row>
                     </Col>
-                    <Col lg={6} md={6} className='order-lg-2 order-md-2 order-1'>
+                    <Col lg={6} md={12} className='order-lg-2 order-md-1 order-1'>
                         <div>
                             <Image src={aboutheroimg} width='100%' height='100%' alt='about-hero-img' className='img-fluid' />
                         </div>

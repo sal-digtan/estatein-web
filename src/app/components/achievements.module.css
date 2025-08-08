@@ -1,0 +1,27 @@
+.achievements_title {
+    font-size: clamp(30px, 3vw, 38px);
+}
+
+.achievements_desc {
+    color: #999999;
+}
+
+.achievements_card {
+    box-shadow: 0 0 6px #262626;
+    border: 0;
+    border-radius: 6px;
+    background-color: #141414;
+    padding: 20px;
+    height: 200px;
+}
+
+.achievements_cardtext {
+    color: #999999;
+}
+
+@media(max-width:600px) {
+    .achievements_card {
+        height: 170px;
+        padding: 10px;
+    }
+}

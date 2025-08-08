@@ -10,6 +10,8 @@ import Journey from '@/app/components/journey'
 import Footer from '@/app/components/footer'
 import AboutHero from '@/app/components/about_hero'
 import Values from '@/app/components/values'
+import Achievements from '@/app/components/achievements'
+import Experience from '@/app/components/experience'
 
 const page = () => {
     return (
@@ -20,6 +22,8 @@ const page = () => {
                         <Navbar />
                         <AboutHero />
                         <Values />
+                        <Achievements />
+                        <Experience />
                         <Journey />
                         <Footer />
                     </Col>
