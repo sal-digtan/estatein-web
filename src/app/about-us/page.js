@@ -12,6 +12,8 @@ import AboutHero from '@/app/components/about_hero'
 import Values from '@/app/components/values'
 import Achievements from '@/app/components/achievements'
 import Experience from '@/app/components/experience'
+import Team from '@/app/components/team'
+import AboutClients from '@/app/components/about_clients'
 
 const page = () => {
     return (
@@ -24,6 +26,8 @@ const page = () => {
                         <Values />
                         <Achievements />
                         <Experience />
+                        <Team />
+                        <AboutClients />
                         <Journey />
                         <Footer />
                     </Col>

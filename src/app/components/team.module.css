@@ -1,0 +1,52 @@
+.team_title {
+    font-size: clamp(30px, 3vw, 38px);
+}
+
+.team_desc {
+    color: #999999;
+}
+
+.social_btn {
+    width: 60px;
+    height: 40px;
+    padding: 5px 20px;
+    border-radius: 43px;
+    background-color: #703BF7;
+}
+
+.team_card {
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+    border-radius: 12px;
+}
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+}
+
+.formcontrol {
+    background-color: #1A1A1A;
+    border-radius: 25px;
+}
+
+.formcontrol:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: #1A1A1A;
+}
+
+.formcontrol_container {
+    border: 1px solid #262626 !important;
+    background-color: #1A1A1A;
+    border-radius: 43px;
+    padding: 5px;
+}
+
+.form_btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50% !important;
+    padding: 5px;
+    background-color: #703BF7;
+}
