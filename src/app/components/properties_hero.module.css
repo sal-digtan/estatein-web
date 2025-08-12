@@ -1,0 +1,70 @@
+.properties_herobg {
+    background-image: linear-gradient(to left, rgba(38, 38, 38, 0), rgba(38, 38, 38, 0.53));
+}
+
+.properties_hero_title {
+    font-size: clamp(30px, 3vw, 38px);
+}
+
+.properties_hero_desc {
+    color: #999999;
+}
+
+.formcontrol {
+    background-color: #141414;
+    border: 0;
+    padding: 16px;
+    margin-right: 5px;
+}
+
+.formcontrol:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: #141414;
+    border: 0;
+}
+
+.formcontrol_container {
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.findbtn {
+    border-radius: 8px !important;
+    background-color: #703BF7;
+    padding: 14px 20px;
+    color: #fff;
+}
+
+.select_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px
+}
+
+.formselect {
+    background-color: #141414;
+    border: 0;
+    border-left: 1px solid #262626;
+    padding: 12px 14px;
+}
+
+.formselect:focus {
+    box-shadow: none;
+    outline: none;
+    border-left: 1px solid #262626;
+}
+
+.formselect_container {
+    border: 1px solid #262626;
+    border-radius: 8px;
+}
+
+@media(max-width: 600px) {
+    .select_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px
+    }
+}

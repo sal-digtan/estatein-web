@@ -4,16 +4,11 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import pageStyles from '@/app/about-us/page.module.css'
+import pageStyles from '@/app/properties/page.module.css'
 import Navbar from '@/app/components/navbar'
-import Journey from '@/app/components/journey'
 import Footer from '@/app/components/footer'
-import AboutHero from '@/app/components/about_hero'
-import Values from '@/app/components/values'
-import Achievements from '@/app/components/achievements'
-import Experience from '@/app/components/experience'
-import Team from '@/app/components/team'
-import AboutClients from '@/app/components/about_clients'
+import Journey from '@/app/components/journey'
+import PropertiesHero from '@/app/components/properties_hero'
 
 const page = () => {
     return (
@@ -22,12 +17,7 @@ const page = () => {
                 <Row>
                     <Col className={pageStyles.page}>
                         <Navbar />
-                        <AboutHero />
-                        <Values />
-                        <Achievements />
-                        <Experience />
-                        <Team />
-                        <AboutClients />
+                        <PropertiesHero />
                         <Journey />
                         <Footer />
                     </Col>

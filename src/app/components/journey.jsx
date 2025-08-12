@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 
 const journey = () => {
     return (
-        <section className={`${journeyStyles.journeybg} pb-5`}>
+        <section className={`${journeyStyles.journeybg} py-5`}>
             <Container>
                 <Row className='align-items-center'>
                     <Col lg={8} className='mb-lg-0 mb-3'>
