@@ -9,6 +9,8 @@ import Navbar from '@/app/components/navbar'
 import Footer from '@/app/components/footer'
 import Journey from '@/app/components/journey'
 import PropertiesHero from '@/app/components/properties_hero'
+import PropertiesDiscover from '@/app/components/properties_discover'
+import PropertiesForm from '@/app/components/properties_form'
 
 const page = () => {
     return (
@@ -18,6 +20,8 @@ const page = () => {
                     <Col className={pageStyles.page}>
                         <Navbar />
                         <PropertiesHero />
+                        <PropertiesDiscover />
+                        <PropertiesForm />
                         <Journey />
                         <Footer />
                     </Col>

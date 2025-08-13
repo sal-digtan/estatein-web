@@ -4,6 +4,10 @@
     background-color: #703BF7;
 }
 
+.journey_text {
+    color: #999999;
+}
+
 .journeybg {
     background: url('../../../public/journeybg1.png') no-repeat top left, url('../../../public/journeybg2.png') no-repeat top right;
     background-size: contain;

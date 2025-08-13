@@ -468,7 +468,7 @@ const featured = () => {
                                 {slidesData.map((item, index) => <Card key={index} className={featuredStyles.slidercard}>
                                     <Card.Body>
                                         <div>
-                                            <Image src={item.img} width='auto' height='auto' alt={item.img} className='mb-3 img-fluid' />
+                                            <Image src={item.img} width='auto' height='auto' alt={item.img} className='mb-3 img-fluid w-100' />
                                             <h5>{item.title}</h5>
                                             <p>{item.desc}</p>
                                         </div>
